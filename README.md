@@ -21,7 +21,9 @@
 
 ### 3. Installation
 
+Clone there repository to your workspace folder <your_path>.
+Then install the repository in editable mode as shown below
 
 #### Computational Design and Fabrication
-    (wiw) python -m pip install git+https://github.com/augmentedfabricationlab/computational_design_and_fabrication@master#egg=computational_design_and_fabrication
-    (wiw) python -m compas_rhino.install -p computational_design_and_fabrication -v 7.0
+    (wiw) python -m pip install -e <your_path>/<your_repository_name>
+    (wiw) python -m compas_rhino.install -p <your_repository_name> -v 7.0
