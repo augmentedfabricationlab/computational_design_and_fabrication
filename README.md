@@ -26,4 +26,4 @@ Then install the repository in editable mode as shown below
 
 #### Computational Design and Fabrication
     (wiw) python -m pip install -e <your_path>/<your_repository_name>
-    (wiw) python -m compas_rhino.install -p <your_repository_name> -v 7.0
+    (wiw) python -m compas_rhino.install -p computational_design_and_fabrication -v7.0
