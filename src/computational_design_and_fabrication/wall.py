@@ -20,5 +20,5 @@ class Wall_ProjectTitle(Wall):
 
     def sin_wave(self, amp, freq, phase, value):
         """Manipulating existing functions"""
-        phase = phase + math.pi #shifting the wave
+        phase = phase + math.pi
         return(amp * math.sin(2.0 * math.pi * freq * value + phase))
